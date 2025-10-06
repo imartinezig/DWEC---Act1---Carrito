@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+     <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+
+     <!-- CSS    -->
+    <link rel="stylesheet" type="text/css" href="style.css">
+    
+    <title>AgoodShop</title>
+</head>
+<body class="container">
+    <h1 class="container text-center"> AgoodShop</h1>
+    <div id="contenedor">
+        <div id="contenedorTabla" class="rounded-5" >
+            <table class="table" id="tablaProductos" >
+                <thead >
+                    <tr class="mx-auto" >
+                        <th >Producto</th>
+                        <th>Cantidad</th>
+                        <th >Pr. Unidad</th>
+                        <th>Total</th>
+                    </tr>
+                </thead>
+                <tbody id="cuerpoTabla" >
+        
+                </tbody>
+            </table>
+        </div>
+
+        <div id="contedorCarrito" class="rounded-5">
+            <div id="tituloTotal" class="w-25 p-3">
+                <h2 >Total</h2>
+            </div>
+
+            <div id="productosCarrito">
+                
+            </div>
+
+            <div id="contenedorTotal">
+                <span>TOTAL</span>
+                <span id="totalFinal">0€</span>
+            </div>
+
+        </div>
+        
+    </div>
+    
+    <script src="./scripts.js"></script>
+</body>
+</html>

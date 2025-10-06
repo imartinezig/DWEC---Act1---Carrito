@@ -1,0 +1,117 @@
+/* Irene Martínez Iglesias - 2º DAW UNIR FP - Octubre 2025 */
+
+body{
+    margin-left: 50px;
+    margin-right: 50px;
+    border: none;
+    font-family: monospace;
+}
+
+h1{
+    color: #4A5DEE;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid gainsboro;
+}
+
+#contenedor{
+    display: flex;
+    flex-direction: row;
+}
+
+#contenedorTabla{
+    margin-top: 50px;
+    width: 70%;
+    
+}
+
+#contedorCarrito{
+    margin-top: 50px;
+    margin-left: 30px;
+    width: 30%;
+    background-color: #D6F782;
+    color: #4A5DEE;
+    display: flex;
+    flex-direction: column;
+}
+
+#tituloTotal{
+    margin-left: 10px;
+}
+
+#contenedorTotal{
+    border-top: 1px solid black;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 30px;
+    padding-top: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+table{
+    table-layout: fixed;
+    text-align:left;
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th{
+  padding: 20px;
+  border-bottom: 3px solid gainsboro;
+
+}
+
+button{
+    color: #495ced;
+    border: 2px solid #495ced;
+    border-radius: 30px;
+    background-color: white;
+    
+}
+
+tr, td {
+    padding: 20px;
+    border-bottom: 2px solid #BDE2FC;
+}
+
+
+
+.tituloProducto
+{
+    font-size: 1.4rem;
+    font-weight: 600;
+    color: #495ced;
+}
+
+.contenedorCantidad
+{
+    display: flex;
+    flex-direction: row;
+}
+
+input
+{
+    border: none;
+    padding: 10px;
+    width: 50px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+#productosCarrito{
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.lineaCompra{
+    padding: 10px;
+    width:100%;
+    display: flex;
+    justify-content: space-between;
+
+}
